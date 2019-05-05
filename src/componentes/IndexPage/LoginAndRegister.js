@@ -4,8 +4,6 @@ import './loginAndRegister.css'
 import Footer from './Footer';
 import Header from './Header';
 import Center from './Container'
-import Register from './Register';
-import Login from './Login';
 
 
 class Index extends Component {
@@ -14,8 +12,6 @@ class Index extends Component {
             <div>
                 <Header />
                 <Center />
-                <Register />
-                <Login />
                 <Footer />
             </div>
         )

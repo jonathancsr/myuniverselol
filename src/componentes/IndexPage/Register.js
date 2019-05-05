@@ -1,34 +1,66 @@
 import React, { Component } from "react";
+import Modal from 'react-bootstrap/Modal'
+import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form'
 
 import './loginAndRegister.css'
 
 class Register extends Component {
+    constructor(props, context) {
+        super(props, context);
 
+        this.handleShow = this.handleShow.bind(this);
+        this.handleClose = this.handleClose.bind(this);
+
+        this.state = {
+            show: false,
+        };
+    }
+
+    handleClose() {
+        this.setState({ show: false });
+    }
+
+    handleShow() {
+        this.setState({ show: true });
+    }
     render() {
         return (
-            <div className='modal fade' id='modalCadastroForm' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel'
-                aria-hidden='true'>
-                <div className='modal-dialog' role='document'>
-                    <div className='modal-content modalLoginRegister'>
-                        <div className='modal-body'>
-                            <form className='form-signin'>
-                                <button type='button' className='close' data-dismiss='modal' aria-label='Close'>
-                                    <span aria-hidden='true'>&times;</span>
-                                </button>
-                                <h2 className='form-signin-heading text-center'>INCREVER-SE</h2>
-                                <input type='text' className='form-control' name='name' placeholder='Nome' required=''
-                                    autofocus='' />
-                                <input type='text' className='form-control' name='username' placeholder='E-mail' required=''
-                                    autofocus='' />
-                                <input type='password' className='form-control' name='password' placeholder='Senha' required='' />
-                                <input type='text' className='form-control' name='nickName' placeholder='Nick Name LOL' required=''
-                                    autofocus='' />
-                                <button className='btn btn-lg btn-primary btn-block'>Inscrever</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <>
+                <Button variant="secondary blueBackgroundColor textGoldColor" onClick={this.handleShow}>
+                    Register
+                </Button>
+                <Modal show={this.state.show} onHide={this.handleClose}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Register</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <Form>
+                                <Form.Label>Nome</Form.Label>
+                                <Form.Control type="text" placeholder="Nome" /><br />
+                                <Form.Label>NickName</Form.Label>
+                                <Form.Control type="text" placeholder="NickName" /><br/>
+                            <Form.Group controlId="formBasicEmail">
+                                <Form.Label>Email</Form.Label>
+                                <Form.Control type="email" placeholder="E-mail" />
+                            </Form.Group>
+                            <Form.Group controlId="formBasicPassword">
+                                <Form.Label>Senha</Form.Label>
+                                <Form.Control type="password" placeholder="Senha" />
+                            </Form.Group>
+                            {['checkbox'].map(type => (
+                                <div key={`inline-${type}`} className="mb-3">
+                                    <Form.Check inline label="Lembrar senha" type={type} id={`inline-${type}-1`} />
+                                </div>
+                            ))}
+                            <Button variant="primary blueBackgroundColor marginCenter textGoldColor" type="submit">
+                                Register
+                            </Button>
+
+                        </Form>
+                    </Modal.Body>
+                </Modal>
+            </>
         )
     }
 }

@@ -1,27 +1,43 @@
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 import './loginAndRegister.css'
+import Login from './Login'
+import Register from './Register'
 
 class Header extends Component {
     render() {
         return (
-            <section className='BackgroundInitial site-hero overlay'>
-                <div className='container'>
-                    <div className='row site-hero-inner align-items-center'>
-                        <div className='col text-left' style={{ marginLeft: 150 }}>
-                            <h5 className='heading' data-aos='fade-up'>Crie seu próprio universo Lol</h5>
-                            <p className='sub-heading mb-5' data-aos='fade-up' data-aos-delay='100'> Personalise e divulgue suas
-                        maiores conquistas do mundo Lol. </p>
-                            <p data-aos='fade-up' data-aos-delay='100'><a href='#cadastro' style={{ marginLeft: 150 }}
-                                className='btn uppercase btn-primary mr-md-2 mr-0 mb-3 d-sm-inline d-block' data-toggle='modal'
-                                data-target='#modalCadastroForm'>INSCREVER-SE</a> <a
-                                    className='btn uppercase btn-light d-sm-inline d-block' data-toggle='modal'
-                                    data-target='#modalLoginForm'>ENTRAR</a></p>
-                        </div>
-                    </div>
-                    <a href='#next-section' className='smoothscroll scroll-down'>Scroll Down</a>
+            <div className='BackgroundInitial'>
+                <div>
+                    <Container>
+                        <Row>
+                            <Col className='textGoldColor'>Logo</Col>
+                            <Col></Col>
+                            <Col lg="1"><Register className='buttons' /></Col>
+                            <Col lg="1"><Login className='buttons' /></Col>
+                        </Row>
+                    </Container>
+                    <Container className='textCentral'>
+                        <Row className="justify-content-md-center fontBig fontFamilySofia  textGoldColor">
+                            <h1>Crie seu próprio universo lol</h1>
+                        </Row>
+                        <Row className="justify-content-md-center fontSmall fontFamilyLobster textGoldColor">
+                            <p> Personalise e divulgue suas<br />
+                        maiores conquistas do mundo de League of Legends. </p>
+                        </Row>
+                        <Row className="justify-content-md-center">
+                        </Row>
+                        <Row className="justify-content-md-center scrollDown fontFamilySofia">
+                            <Col>
+                                <a href='#next-section' className='textGoldColor'>Scroll Down</a>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
-            </section>
+            </div>
         )
     }
 }

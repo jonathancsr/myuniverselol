@@ -1,7 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Sofia');
+.fontFamilySofia{
+    font-family: 'Sofia', cursive;
+}
+.fontFamilyLobster{
+font-family: 'Lobster', cursive;
+}
+
+.fontSmall{
+    font-size: 2em;
+}
+
+.fontMedium{
+    font-size: 3em;
+}
+
+.fontBig{
+    font-size: 4em;
+}
+
+.textCentral{
+    position: relative;
+    top: 200px;
+}
+.scrollDown{
+    position: relative;
+    top: 50em;
+}
 
 .BackgroundInitial{
     background: url("./static/img1.jpg");
-    min-height: 58em;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 58.6em;
 }
 
 /*Modal Register*/
@@ -9,11 +39,6 @@
     background: 'transparent';
     box-shadow: 'none';
     border: 'none';
-}
-
-/*Modal */
-.registerModal{
-    
 }
 
 /*Footer*/
@@ -27,4 +52,29 @@
 }
 .footerBackgroundColor{
     background-color: #0f282f;
+}
+
+.blueBackgroundColor{
+    background-color: #0f282f;
+}
+
+.goldBackgroundColor{
+    background-color: #f9c154;
+}
+
+.textGoldColor{
+    color: #f9c154;
+}
+
+.textBlueColor{
+    color: #0f282f;
+}
+
+.marginCenter{
+    align-content: center;
+}
+
+.buttons :hover{
+    box-shadow: #f9c154 5px 5px;
+    width: 120%;
 }
