@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 
 import BackgroundImg from './static/img8.jpg'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from 'react-bootstrap/Col'
 
 class center extends Component{
     
     render(){
         return(
-            <div>
-                    <section className='section'>
-                        <div className='container'>
-                            <div className='row'>
-                                <div className='col-lg-7'>
+            <div className='conteudo'>
+                <Container className="justify-content-md-center">
+                    <Row>
+                        <Col lg="7">
                                     <img src={BackgroundImg} alt="Imagem 1" className='img-fluid rounded img-shadow'/>
-                                    </div>
-                                    <div className='col-lg-4 ml-auto'>
+                        </Col>
+                        <Col lg="4">
                                     <h3 className='mb-3'>About Me</h3>
                                     <p>I'm John Doe a realtor agent, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
                                     omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto ducimus
@@ -22,14 +24,15 @@ class center extends Component{
                                     veritatis magnam non, dicta nemo inventore, nisi quas dolores. Modi laboriosam sunt aliquid rem,
                                     deserunt quis? Porro, hic.</p>
                                     
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section className='section visit-section' id='next-section'>
-                        <div className='container'>
-                            <h2>O que é Lorem Ipsum?</h2>
+                           
+                        </Col>
+                    </Row>
+                </Container>
+                <Container className="justify-content-md-center">
+                    <Row>
+                        <Col>
+                        <br/>
+                        <h2>O que é Lorem Ipsum?</h2>
                             <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo
                                 utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
                                 embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como
@@ -38,7 +41,10 @@ class center extends Component{
                 quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
 
                             <br/>
-                                <h2>De onde ele vem?</h2>
+                        </Col>
+                    </Row>
+                    <Row>
+                    <h2>De onde ele vem?</h2>
                                 <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000
                                     anos,
                                     suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard
@@ -57,9 +63,9 @@ class center extends Component{
                                     reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita
                                     por
                 H. Rackham em 1914.</p>
-            </div>
-        </section>
-    </div>
+                    </Row>
+                </Container>     
+                </div>      
         )
     }
 }

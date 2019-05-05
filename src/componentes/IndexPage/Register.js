@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
+import { Link } from 'react-router-dom'
 
 import './loginAndRegister.css'
 
@@ -54,7 +55,7 @@ class Register extends Component {
                                 </div>
                             ))}
                             <Button variant="primary blueBackgroundColor marginCenter textGoldColor" type="submit">
-                                Register
+                            <Link to='/myWorld'> Register </Link>  
                             </Button>
 
                         </Form>

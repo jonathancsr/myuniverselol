@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
+import { Link } from 'react-router-dom'
 
 import './loginAndRegister.css'
 
@@ -27,7 +28,7 @@ class Login extends Component {
 
     render() {
         return (
-            <>
+                <>
                 <Button variant="secondary textBlueColor buttons" onClick={this.handleShow}>
                     Login
                 </Button>
@@ -46,14 +47,14 @@ class Login extends Component {
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
                             <Button variant="primary center blueBackgroundColor textGoldColor" type="submit">
-                                LOGIN
+                                <Link to='/myWorld'> LOGIN </Link>
                              </Button>
-                        </Form>
-                    </Modal.Body>
-                </Modal>
-            </>
-        );
-    }
-}
-
+                            </Form>
+                        </Modal.Body>
+                    </Modal>
+                </>
+                );
+            }
+        }
+        
 export default Login
