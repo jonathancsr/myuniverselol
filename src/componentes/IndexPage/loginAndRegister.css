@@ -1,0 +1,30 @@
+
+.BackgroundInitial{
+    background: url("./static/img1.jpg");
+    min-height: 58em;
+}
+
+/*Modal Register*/
+.modalLoginRegister{
+    background: 'transparent';
+    box-shadow: 'none';
+    border: 'none';
+}
+
+/*Modal */
+.registerModal{
+    
+}
+
+/*Footer*/
+.footerTextColor{
+    color: #f9c154;
+    text-decoration: none;
+}
+.footerTextColor:hover{
+    color: white;
+    text-decoration: none;
+}
+.footerBackgroundColor{
+    background-color: #0f282f;
+}
