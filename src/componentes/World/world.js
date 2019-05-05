@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-
+import Character from './character/character'
 
 class world extends Component {
-    render(){
+    render() {
         return (
-            <p>Sou o Jonatão da  nova geração</p>
+            <Character />            
         )
     }
 }

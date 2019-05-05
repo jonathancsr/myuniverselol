@@ -10,13 +10,11 @@ import Center from './Container'
 class Index extends Component {
     render() {
         return (
-            <BrowserRouter>
             <div>
                 <Header />
                 <Center />
                 <Footer />
             </div>
-            </BrowserRouter>
         )
     }
 }

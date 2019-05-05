@@ -9,9 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Route path='/' component={Index} />
+     {/*   <Route path='/' component={Index} />
         <Route path='/MyWorld' component={World} />
-        <Index />
+      */}
+      <World />
       </div>
     </BrowserRouter>
   );

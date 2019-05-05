@@ -64,6 +64,7 @@ font-family: 'helveticaneue', cursive;
   }
 .BackgroundInitial{
     background: url("./static/img1.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
     min-height: 58.6em;
