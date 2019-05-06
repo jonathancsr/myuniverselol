@@ -1,3 +1,4 @@
+
 window.onload = function(){
 	//Constantes que armazenam o código de cada seta do teclado
 	var SPACE = 32; LEFT = 37, UP = 38, RIGHT = 39, DOWN = 40; 
@@ -6,7 +7,7 @@ window.onload = function(){
 
 	var	ctx = cnv.getContext("2d");
 	var spriteSheet = new Image();
-	spriteSheet.src = "img/img.png";
+	spriteSheet.src = "C:\Users\jonat\Documents\myuniverselol\src\componentes\World\character\static\img.png";
 	var zezim = new Sprite(spriteSheet);
 	var maxWidth = cnv.width-zezim.width;
 	var minWidth = 0;
@@ -106,3 +107,4 @@ window.onload = function(){
 		draw();
 	}
 }
+
