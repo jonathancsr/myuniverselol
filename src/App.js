@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import './App.css';
 import Index from './componentes/IndexPage/LoginAndRegister'
-import World from './componentes/World/world'
+import World from './componentes/World/containerWorld'
 
 function App() {
   return (

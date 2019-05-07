@@ -5,7 +5,7 @@ class character extends Component {
 
     render() {
         return (
-            <div className="no-margin-and-padding full-height" >
+            <div id="canvas" className="no-margin-and-padding full-height" >
                 <canvas width="300px" height="100px"></canvas>
             </div>
         );

@@ -1,14 +1,15 @@
 
+
 window.onload = function(){
 	//Constantes que armazenam o código de cada seta do teclado
 	var SPACE = 32; LEFT = 37, UP = 38, RIGHT = 39, DOWN = 40; 
 
-	var cnv = document.querySelector("canvas");
+	var cnv = document.getElementById("canvas");
 
 	var	ctx = cnv.getContext("2d");
 	var spriteSheet = new Image();
-	spriteSheet.src = "C:\Users\jonat\Documents\myuniverselol\src\componentes\World\character\static\img.png";
-	var zezim = new Sprite(spriteSheet);
+	spriteSheet.src = "../src/componentes/WorldQcharacter/static/character.PNG";
+	var zezim = Sprite(spriteSheet);
 	var maxWidth = cnv.width-zezim.width;
 	var minWidth = 0;
 	var floorHeight = 0;
@@ -26,7 +27,6 @@ window.onload = function(){
 				zezim.mvLeft = false;
 				zezim.mvUp = false;
 				zezim.mvDown = false;
-				
 				break;
 			case LEFT:
 				zezim.mvRight = false;

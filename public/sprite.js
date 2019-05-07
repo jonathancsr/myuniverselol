@@ -36,7 +36,7 @@ function Sprite(img){
 	//Move a figura
 	this.move = function(minWidth,maxWidth,time,floorHeight){
 	this.move = function(minWidth,maxWidth,time,floorHeight){
-		console.log(maxWidth + " ]]  "+ )
+		console.log(maxWidth + " ]]  ")
 		if((maxWidth>this.posX && this.mvRight) ){
 			this.posX += this.speed;
 			this.srcY = this.height * 3; 
@@ -81,4 +81,5 @@ function Sprite(img){
 			this.countAnim = 0;
 		}
 	}
+}
 }
