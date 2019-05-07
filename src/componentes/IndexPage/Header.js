@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import {BrowserRouter, Route} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import './loginAndRegister.css'
-import Login from './Login'
-import Register from './Register'
+import Menu from './menu'
 
 class Header extends Component {
     render() {
@@ -14,14 +13,7 @@ class Header extends Component {
             
             <div className='BackgroundInitial'>
                 <div>
-                    <Container>
-                        <Row>
-                            <Col className='textGoldColor'>Logo</Col>
-                            <Col></Col>
-                            <Col lg="1"><Register className='buttons' /></Col>
-                            <Col lg="1"><Login className='buttons' /></Col>
-                        </Row>
-                    </Container>
+                    <Menu />
                     <Container className='textCentral'>
                         <Row className="justify-content-md-center  fontFamilySofia  textGoldColor fontBig">
                             <h1>Crie seu próprio universo lol</h1>
