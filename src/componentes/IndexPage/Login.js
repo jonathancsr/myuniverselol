@@ -29,7 +29,7 @@ class Login extends Component {
     render() {
         return (
                 <>
-                <Button variant="secondary textBlueColor buttons" onClick={this.handleShow}>
+                <Button variant="secondary mrl-small textBlueColor buttons" onClick={this.handleShow}>
                     Login
                 </Button>
                 <Modal show={this.state.show} onHide={this.handleClose}>

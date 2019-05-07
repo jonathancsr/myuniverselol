@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
 import Menu from '../IndexPage/menu'
-import Flor from './components/flor'
 import World from './components/world'
+import Floor from './components/floor/floor'
+import Sky from './components/sky/sky'
+
 
 class world extends Component {
     render() {
@@ -10,9 +12,7 @@ class world extends Component {
             <div>
                 <Menu />
                 <World />
-                <Flor />
-            </div>
-
+             </div>
         )
     }
 }

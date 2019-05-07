@@ -103,6 +103,11 @@ font-family: 'helveticaneue', cursive;
     text-shadow: 3px 4px 4px rgba(15,40,47,0.48); ;
 }
 
+.textGoldColor:hover{
+    color: #fac968;
+    text-decoration: none;
+}
+
 .textBlueColor{
     color: #0f282f;
 }
@@ -113,6 +118,10 @@ font-family: 'helveticaneue', cursive;
 
 .conteudo{
     margin: 2.5em 0;
+}
+
+.mrl-small{
+    margin: 0 1em; 
 }
 
 .buttons :hover{

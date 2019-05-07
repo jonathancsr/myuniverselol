@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Navbar, { Nav } from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
 
+
 import './loginAndRegister.css'
-import Login from './Login'
 import Register from './Register'
+import Login from './Login'
 
 class menu extends Component {
     render() {
         return (
-            <Container>
-                <Row>
-                    <Col className='textGoldColor'><Link to='/'>Logo</Link></Col>
-                    <Col></Col>
-                    <Col lg="1"><Register className='buttons' /></Col>
-                    <Col lg="1"><Login className='buttons' /></Col>
-                </Row>
-            </Container>
+            <>
+                <Navbar fixed="top" className="justify-content-between" bg="dark" variant="dark">
+                    <Navbar.Brand><Link className='textGoldColor' to='/'>HOME</Link></Navbar.Brand>
+                    <Navbar.Brand >
+                        <Register />
+                        <Login />
+                    </Navbar.Brand>
+                </Navbar>
+                <br />
+            </>
         )
     }
 }

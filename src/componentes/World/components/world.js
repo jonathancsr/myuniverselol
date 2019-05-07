@@ -1,17 +1,17 @@
-import React, {Component} from 'react'
-
-class world extends Component
-{
-    componentDidMount(){
-        const world = this.refs.world
-        world.style.minHeigt = '70%';
-        world.style.backgroundColor = 'blue';
-    }
+import React, { Component } from 'react'
 
 
-    render(){
-        return(
-            <div ref='world'>aesdfghjio876trdcvbhjuy76rtd</div>
+import Floor from './floor/floor'
+import Sky from './sky/sky'
+
+class world extends Component {
+    
+    render() {
+        return (
+            <div>
+                <Sky />
+                <Floor />
+            </div>
         )
     }
 }

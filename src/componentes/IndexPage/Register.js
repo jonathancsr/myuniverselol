@@ -28,10 +28,10 @@ class Register extends Component {
     render() {
         return (
             <>
-                <Button variant="secondary blueBackgroundColor textGoldColor" onClick={this.handleShow}>
+                <Button variant="secondary mrl-small blueBackgroundColor textGoldColor" onClick={this.handleShow}>
                     Register
                 </Button>
-                <Modal show={this.state.show} onHide={this.handleClose}>
+                <Modal ref='modal' show={this.state.show} onHide={this.handleClose} style="top=3em">
                     <Modal.Header closeButton>
                         <Modal.Title>Register</Modal.Title>
                     </Modal.Header>
