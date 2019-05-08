@@ -31,16 +31,16 @@ class Register extends Component {
                 <Button variant="secondary mrl-small blueBackgroundColor textGoldColor" onClick={this.handleShow}>
                     Register
                 </Button>
-                <Modal ref='modal' show={this.state.show} onHide={this.handleClose} style="top=3em">
+                <Modal ref='modal' show={this.state.show} onHide={this.handleClose}>
                     <Modal.Header closeButton>
                         <Modal.Title>Register</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         <Form>
-                                <Form.Label>Nome</Form.Label>
-                                <Form.Control type="text" placeholder="Nome" /><br />
-                                <Form.Label>NickName</Form.Label>
-                                <Form.Control type="text" placeholder="NickName" /><br/>
+                            <Form.Label>Nome</Form.Label>
+                            <Form.Control type="text" placeholder="Nome" /><br />
+                            <Form.Label>NickName</Form.Label>
+                            <Form.Control type="text" placeholder="NickName" /><br />
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Label>Email</Form.Label>
                                 <Form.Control type="email" placeholder="E-mail" />
@@ -55,9 +55,8 @@ class Register extends Component {
                                 </div>
                             ))}
                             <Button variant="primary blueBackgroundColor marginCenter textGoldColor" type="submit">
-                            <Link to='/myWorld'> Register </Link>  
+                                <Link to='/myWorld'> Register </Link>
                             </Button>
-
                         </Form>
                     </Modal.Body>
                 </Modal>

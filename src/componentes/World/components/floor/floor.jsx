@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 
 import './floor.css'
 
-let textureSrc = "../../../static/flor_1.png";
+//let textureSrc = "../../../static/flor_1.png";
 
 class flor extends Component {
 
     componentDidMount() {
-        const floor = this.refs.floor;
+ //       const floor = this.refs.floor;
  //       floor.style.background= '"../../../static/flor_1.png"';
     }
 

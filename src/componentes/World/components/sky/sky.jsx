@@ -8,7 +8,6 @@ class sky extends Component {
             <div ref='sky' className='sky'></div>
         )
     }
-
 }
 
 export default sky
