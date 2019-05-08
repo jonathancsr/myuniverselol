@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b8a0a2199202e77ea3f6a7a127ff274",
+    "revision": "49474017ce571f81c9a92ea047be3714",
     "url": "/myuniverselol/index.html"
   },
   {
