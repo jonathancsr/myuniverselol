@@ -1,7 +1,6 @@
 .no-margin-and-padding{
     margin: 0%;
     padding: 0%;
-    margin-top: 37.5%;
 }
 .full-height {
     position: absolute;
@@ -14,4 +13,6 @@
 
 .div-style{
     width: 100%;
+    position: absolute;
+    bottom: 22%;
 }

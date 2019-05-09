@@ -4,7 +4,7 @@ class Character extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            rotation: 0, widthFrame: 24, heightFrame: 32, speed: 1, srcX: 0, srcY: 0, posX: 0, posY: 30,
+            rotation: 0, widthFrame: 24, heightFrame: 32, speed: 1, srcX: 0, srcY: 0, posX: 0, posY: 0,
             mvRight: false, mvLeft: false, mvUp: false, mvDown: false, countAnim: 0
         };
         this.tick = this.tick.bind(this);
@@ -53,9 +53,7 @@ class Character extends Component {
     }
 
     move() {
-        let width = window.screen.width;
-        //console.log(width)
-        if (( 1200 > this.state.posX && this.state.mvRight)) {
+        if ((1200 > this.state.posX && this.state.mvRight)) {
             this.state.posX = this.state.posX + 2;
             this.state.srcY = this.state.heightFrame * 3;
         }
@@ -88,18 +86,18 @@ class Character extends Component {
                 this.state.mvUp = false;
                 this.state.mvDown = false;
                 break;
-           /* case 38:
-                this.state.mvRight = false;
-                this.state.mvLeft = false;
-                this.state.mvUp = true;
-                this.state.mvDown = false;
-                break;
-            case 40:
-                this.state.mvRight = false;
-                this.state.mvLeft = false;
-                this.state.mvUp = false;
-                this.state.mvDown = true;
-                break;*/
+            /* case 38:
+                 this.state.mvRight = false;
+                 this.state.mvLeft = false;
+                 this.state.mvUp = true;
+                 this.state.mvDown = false;
+                 break;
+             case 40:
+                 this.state.mvRight = false;
+                 this.state.mvLeft = false;
+                 this.state.mvUp = false;
+                 this.state.mvDown = true;
+                 break;*/
         }
         const mvRight = this.state.mvRight;
         const mvLeft = this.state.mvLeft;
@@ -159,12 +157,11 @@ class Character extends Component {
     }
 
     render() {
-        let width = window.screen.width;
         return (
-            <div className ='div-style' >
+            <div className='div-style' >
                 <canvas className='no-margin-and-padding full-height canvas'
                     ref="canvas"
-                    width="1225px"
+                    width={window.screen.width}
                     height="80px"
                 />
             </div>

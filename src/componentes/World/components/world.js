@@ -12,14 +12,17 @@ class world extends Component {
     
     componentDidMount(){
         disableScroll.on();
-        var world = document.querySelector('.App')
-        world.style.overflow ='hidden'
+        var world = document.querySelector('body')
+        world.style.overflowX ='hidden'
+        world.style.overflowY ='hidden'
     }
 
     componentWillUnmount(){
         disableScroll.off();
-        var world = document.querySelector('.App')
-        world.style.overflow =''
+        var world = document.querySelector('body')
+        world.style.overflowX =''
+        world.style.overflowY =''
+   
     }
 
     render() {
