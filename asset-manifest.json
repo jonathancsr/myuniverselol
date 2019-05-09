@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/myuniverselol/static/css/main.0528e744.chunk.css",
-    "main.js": "/myuniverselol/static/js/main.56a618cb.chunk.js",
-    "main.js.map": "/myuniverselol/static/js/main.56a618cb.chunk.js.map",
-    "runtime~main.js": "/myuniverselol/static/js/runtime~main.c76ee058.js",
-    "runtime~main.js.map": "/myuniverselol/static/js/runtime~main.c76ee058.js.map",
-    "static/js/2.99ef3ea0.chunk.js": "/myuniverselol/static/js/2.99ef3ea0.chunk.js",
-    "static/js/2.99ef3ea0.chunk.js.map": "/myuniverselol/static/js/2.99ef3ea0.chunk.js.map",
-    "index.html": "/myuniverselol/index.html",
-    "precache-manifest.6cf0b18e01544f0479d163c0dc813732.js": "/myuniverselol/precache-manifest.6cf0b18e01544f0479d163c0dc813732.js",
-    "service-worker.js": "/myuniverselol/service-worker.js",
-    "static/css/main.0528e744.chunk.css.map": "/myuniverselol/static/css/main.0528e744.chunk.css.map",
-    "static/media/loginAndRegister.css": "/myuniverselol/static/media/img1.194815fb.jpg",
-    "static/media/img8.jpg": "/myuniverselol/static/media/img8.3388e9ad.jpg",
-    "static/media/sky.css": "/myuniverselol/static/media/sky.d83d1811.png"
+    "main.css": "//static/css/main.e7054e21.chunk.css",
+    "main.js": "//static/js/main.5d569d59.chunk.js",
+    "main.js.map": "//static/js/main.5d569d59.chunk.js.map",
+    "runtime~main.js": "//static/js/runtime~main.ad5b5987.js",
+    "runtime~main.js.map": "//static/js/runtime~main.ad5b5987.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "//static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.a924578c.chunk.js": "//static/js/2.a924578c.chunk.js",
+    "static/js/2.a924578c.chunk.js.map": "//static/js/2.a924578c.chunk.js.map",
+    "index.html": "//index.html",
+    "precache-manifest.309280d9615eb9d1a50c9f5b1379b446.js": "//precache-manifest.309280d9615eb9d1a50c9f5b1379b446.js",
+    "service-worker.js": "//service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "//static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.e7054e21.chunk.css.map": "//static/css/main.e7054e21.chunk.css.map",
+    "static/media/loginAndRegister.css": "//static/media/img1.194815fb.jpg",
+    "static/media/img8.jpg": "//static/media/img8.3388e9ad.jpg",
+    "static/media/sky.css": "//static/media/sky.d83d1811.png"
   }
 }
