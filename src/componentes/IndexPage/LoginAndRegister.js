@@ -9,11 +9,14 @@ import Center from './Container'
 class Index extends Component {
     render() {
         return (
-            <div>
-                <Header />
-                <Center />
-                <Footer />
+            <div className="App">
+                <div className='indexGeral'>
+                    <Header />
+                    <Center />
+                    <Footer />
+                </div>
             </div>
+
         )
     }
 }

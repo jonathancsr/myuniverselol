@@ -7,7 +7,7 @@ import World from './components/world'
 class world extends Component {
     render() {
         return (
-            <div>
+            <div className="App">
                 <Menu />
                 <World />
              </div>
