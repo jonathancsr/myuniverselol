@@ -2,7 +2,7 @@
   "name": "myuniverselol",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jonathancsr.github.io/myuniverselol/",
+  "homepage": "https://myuniverselol.netlify.com//",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "disable-scroll": "^0.4.1",
