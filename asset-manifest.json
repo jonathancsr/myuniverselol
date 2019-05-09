@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/myuniverselol/static/css/main.5612de2f.chunk.css",
-    "main.js": "/myuniverselol/static/js/main.aad6721f.chunk.js",
-    "main.js.map": "/myuniverselol/static/js/main.aad6721f.chunk.js.map",
+    "main.css": "/myuniverselol/static/css/main.ba36ce0c.chunk.css",
+    "main.js": "/myuniverselol/static/js/main.ef027dcd.chunk.js",
+    "main.js.map": "/myuniverselol/static/js/main.ef027dcd.chunk.js.map",
     "runtime~main.js": "/myuniverselol/static/js/runtime~main.c76ee058.js",
     "runtime~main.js.map": "/myuniverselol/static/js/runtime~main.c76ee058.js.map",
     "static/js/2.3660e582.chunk.js": "/myuniverselol/static/js/2.3660e582.chunk.js",
     "static/js/2.3660e582.chunk.js.map": "/myuniverselol/static/js/2.3660e582.chunk.js.map",
     "index.html": "/myuniverselol/index.html",
-    "precache-manifest.1f4b6928303c7240e1ebf65ed2a6edda.js": "/myuniverselol/precache-manifest.1f4b6928303c7240e1ebf65ed2a6edda.js",
+    "precache-manifest.52c7f5fd0c42c315e7bc5f40dd2e877a.js": "/myuniverselol/precache-manifest.52c7f5fd0c42c315e7bc5f40dd2e877a.js",
     "service-worker.js": "/myuniverselol/service-worker.js",
-    "static/css/main.5612de2f.chunk.css.map": "/myuniverselol/static/css/main.5612de2f.chunk.css.map",
+    "static/css/main.ba36ce0c.chunk.css.map": "/myuniverselol/static/css/main.ba36ce0c.chunk.css.map",
     "static/media/loginAndRegister.css": "/myuniverselol/static/media/img1.194815fb.jpg",
     "static/media/img8.jpg": "/myuniverselol/static/media/img8.3388e9ad.jpg",
     "static/media/sky.css": "/myuniverselol/static/media/sky.d83d1811.png"
