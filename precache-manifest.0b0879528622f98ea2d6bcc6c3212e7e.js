@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac65e8d81543189792385890b027c9cc",
+    "revision": "352cd75ae40b3898600597100b3ff563",
     "url": "/myuniverselol/index.html"
   },
   {
-    "revision": "6d182e711bcdf67daf14",
-    "url": "/myuniverselol/static/css/main.ba36ce0c.chunk.css"
+    "revision": "e9745df8883fbb32d91c",
+    "url": "/myuniverselol/static/css/main.0528e744.chunk.css"
   },
   {
-    "revision": "0f8565cdc5bcc439fd50",
-    "url": "/myuniverselol/static/js/2.3660e582.chunk.js"
+    "revision": "ebe2d9572e80ab53ac24",
+    "url": "/myuniverselol/static/js/2.3106d591.chunk.js"
   },
   {
-    "revision": "6d182e711bcdf67daf14",
-    "url": "/myuniverselol/static/js/main.ef027dcd.chunk.js"
+    "revision": "e9745df8883fbb32d91c",
+    "url": "/myuniverselol/static/js/main.afd91ace.chunk.js"
   },
   {
     "revision": "7f56d7b8d1527945dab8",
