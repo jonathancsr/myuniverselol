@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/myuniverselol/static/css/main.9a8a28e3.chunk.css",
-    "main.js": "/myuniverselol/static/js/main.594134fe.chunk.js",
-    "main.js.map": "/myuniverselol/static/js/main.594134fe.chunk.js.map",
+    "main.css": "/myuniverselol/static/css/main.6d67f910.chunk.css",
+    "main.js": "/myuniverselol/static/js/main.d2804007.chunk.js",
+    "main.js.map": "/myuniverselol/static/js/main.d2804007.chunk.js.map",
     "runtime~main.js": "/myuniverselol/static/js/runtime~main.c76ee058.js",
     "runtime~main.js.map": "/myuniverselol/static/js/runtime~main.c76ee058.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/myuniverselol/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.19389659.chunk.js": "/myuniverselol/static/js/2.19389659.chunk.js",
-    "static/js/2.19389659.chunk.js.map": "/myuniverselol/static/js/2.19389659.chunk.js.map",
+    "static/js/2.c89352ae.chunk.js": "/myuniverselol/static/js/2.c89352ae.chunk.js",
+    "static/js/2.c89352ae.chunk.js.map": "/myuniverselol/static/js/2.c89352ae.chunk.js.map",
     "index.html": "/myuniverselol/index.html",
-    "precache-manifest.6917806a841797c8519933893e569607.js": "/myuniverselol/precache-manifest.6917806a841797c8519933893e569607.js",
+    "precache-manifest.ec43d9bc22174ac7a7428932f5364302.js": "/myuniverselol/precache-manifest.ec43d9bc22174ac7a7428932f5364302.js",
     "service-worker.js": "/myuniverselol/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/myuniverselol/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.9a8a28e3.chunk.css.map": "/myuniverselol/static/css/main.9a8a28e3.chunk.css.map",
+    "static/css/main.6d67f910.chunk.css.map": "/myuniverselol/static/css/main.6d67f910.chunk.css.map",
     "static/media/loginAndRegister.css": "/myuniverselol/static/media/img1.194815fb.jpg",
     "static/media/img8.jpg": "/myuniverselol/static/media/img8.3388e9ad.jpg",
+    "static/media/logo.png": "/myuniverselol/static/media/logo.f5c5cd14.png",
     "static/media/sky.css": "/myuniverselol/static/media/sky.d83d1811.png"
   }
 }
