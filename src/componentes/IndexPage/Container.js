@@ -5,67 +5,72 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col'
 
-class center extends Component{
-    
-    render(){
-        return(
+class center extends Component {
+
+    render() {
+        return (
             <div className='conteudo'>
                 <Container className="justify-content-md-center">
                     <Row>
                         <Col lg="7">
-                                    <img src={BackgroundImg} alt="Imagem 1" className='img-fluid rounded img-shadow'/>
+                            <img src={BackgroundImg} alt="Imagem 1" className='img-fluid rounded img-shadow' />
                         </Col>
                         <Col lg="4">
-                                    <h3 className='mb-3'>About Me</h3>
-                                    <p>I'm John Doe a realtor agent, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-                                    omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto ducimus
-                                    sit quos officiis nesciunt libero, officia, aliquam doloremque totam.</p>
-                                    <p>Ratione natus expedita iusto, minus cumque vitae quo culpa reiciendis aspernatur aliquam
-                                    veritatis magnam non, dicta nemo inventore, nisi quas dolores. Modi laboriosam sunt aliquid rem,
-                                    deserunt quis? Porro, hic.</p>
-                                    
-                           
+                            <h3 className='mb-3'>Sobre nós</h3>
+                            <p>My universe LOL é um portal em que você pode exibir suas conquistas de League of Legends do seu jeito.
+                                        Experimente e entre nesse Universo.</p>
+                            <p>Aqui você pode criar um mundo e customiza-lo. Postar fotos e acontecimentos como campeonatos que você participou.
+                                        Ver algumas estatísticas do jogo e seu perfil entre outras funcionalidades.</p>
+                            <p>Para te acompanhar durante as aventuras no My Universol lol, você poderá escolher
+                                        seu Poro preferido e controla-lo na navegação da sua página customizada.</p>
+
+
                         </Col>
                     </Row>
                 </Container>
                 <Container className="justify-content-md-center">
                     <Row>
                         <Col>
-                        <br/>
-                        <h2>O que é Lorem Ipsum?</h2>
-                            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo
-                                utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
-                                embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como
-                                também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na
-                                década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente
-                quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
-
-                            <br/>
+                            <br />
+                            <h2>O que é League of Legends?</h2>
+                            <p>League of Legends é um jogo online competitivo que mistura a velocidade e a
+                                intensidade de um RTS com elementos de RPG. Duas equipes de poderosos campeões,
+                                cada um com design e estilo único, lutam em diversos campos de batalha e modos de jogo.
+                                Com um elenco de campeões em constante expansão, atualizações frequentes e uma cena competitiva
+                                exuberante, League of Legends oferece diversão incessante para jogadores de todos os níveis de habilidade.
+                                Junte-se à maior comunidade de jogos online: faça amigos, forme equipes e enfrente dezenas de milhões de oponentes
+                                de países do outro lado do mundo, depois troque experiências no reddit, no YouTube, nos fóruns e onde mais quiser</p>
+                            <br />
                         </Col>
                     </Row>
                     <Row>
-                    <h2>De onde ele vem?</h2>
-                                <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000
-                                    anos,
-                                    suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard
-                                    McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras
-                                    palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações
-                                    da
-                                    palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e
-                                    1.10.33 do 'de Finibus Bonorum et Malorum' (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC.
-                                    Este
-                                    livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem
-                                    Ipsum,
-                                    'Lorem Ipsum dolor sit amet...' vem de uma linha na seção 1.10.32.
-                    
-                                    O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os
-                                    interessados. Seções 1.10.32 e 1.10.33 de 'de Finibus Bonorum et Malorum' de Cicero também foram
-                                    reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita
-                                    por
-                H. Rackham em 1914.</p>
+                        <Col>
+                            <br />
+                            <h2>Curiosidades sobre os Poros</h2>
+                 
+                            <p>Apesar de que, em dado momento, animamos os poros
+                                para cair de costas e tremer se esbarrassem nas fontes de Howling Abyss.
+                                <br></br>
+                                Os chifres de um poro se empinam quando eles estão empolgados, ou abaixam quando estão com medo.
+                                <br></br>
+                                Poros têm uma barriguinha em formato de coração porque são feitos de amor
+                                <br></br>
+                                A cor que melhor os descreve é “azul muito claro, como a neve de Freljord.
+                                <br></br>
+                                Poros são compostos por partes iguais de verdade, coragem e inocência.
+                                <br></br>
+                                Devido a feitos heroicos recentes, Braum é amigo dos poros .
+                                <br></br>
+                                Poros nadam pela neve profunda com suas patas dianteiras.
+                                <br></br>
+                                Poritos são recobertos de cristais de gelo de Freljord.
+                                <br></br>
+                                Há quem acredite que poros são indestrutíveis.
+                            </p>
+                        </Col>
                     </Row>
-                </Container>     
-                </div>      
+                </Container>
+            </div>
         )
     }
 }
