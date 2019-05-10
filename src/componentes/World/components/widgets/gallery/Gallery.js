@@ -12,7 +12,7 @@ class Gallery extends Component {
   render() {
     return (
       <div >
-        <Carousel className ="gallery-dimension">
+        <Carousel className="gallery-dimension">
           <div>
             <img src="https://www.leak.pt/wp-content/uploads/2018/07/league-of-legends.jpg" />
           </div>
@@ -28,6 +28,7 @@ class Gallery extends Component {
           <div>
             <img src="https://www.bonde.com.br/img/bondenews/2018/08/img_1_2_49.jpg" />
           </div>
+
         </Carousel>
       </div>
 
