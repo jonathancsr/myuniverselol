@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './character.css';
+
 class Character extends Component {
     constructor(props) {
         super(props);
@@ -53,7 +54,8 @@ class Character extends Component {
     }
 
     move() {
-        if ((1200 > this.state.posX && this.state.mvRight)) {
+        console.log(window.screen.width + " - " + this.state.posX)
+        if (( (0.7895*window.screen.width) > this.state.posX && this.state.mvRight)) {
             this.state.posX = this.state.posX + 2;
             this.state.srcY = this.state.heightFrame * 3;
         }
