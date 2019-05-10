@@ -2,6 +2,7 @@
     background-image:url('../../../static/sky.png') ;
     position: relative;
     min-width: 100%;
-    min-height: 1000px;
+    background-repeat: round;
+    min-height: 800px;
     position: relative;
 }

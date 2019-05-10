@@ -3,5 +3,6 @@
     position: absolute;
     bottom: 0px;
     min-width: 100%;
-    min-height: 130px;
+    min-height: 160px;
+    background-repeat: round;
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
 
-
 import './loginAndRegister.css'
 import Register from './Register'
 import Login from './Login'
