@@ -3,6 +3,12 @@
     font-family: helveticaneue;
     src: url('./static/Friz Quadrata TT.ttf');
 }
+
+.logo{
+    min-width: 30%;
+    max-height: 50px;
+}
+
 .fontFamilySofia{
     font-family: 'helveticaneue', cursive;
 }
