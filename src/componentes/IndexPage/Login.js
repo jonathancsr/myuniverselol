@@ -1,10 +1,14 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 
 import './loginAndRegister.css'
+import Facebook from './FacebookLoginButton'
+import { login } from "../UserFunctions"
+import { userStatus } from "../World/components/widgets/cardProfile/cardUtils"
+const jwt = require("jsonwebtoken")
 
 class Login extends Component {
     constructor(props, context) {
@@ -14,8 +18,32 @@ class Login extends Component {
         this.handleClose = this.handleClose.bind(this);
 
         this.state = {
+            email: '',
+            password: '',
             show: false,
         };
+
+        this.onChange = this.onChange.bind(this)
+        this.onSubmit = this.onSubmit.bind(this)
+    }
+
+    onChange(e) {
+        this.setState({ [e.target.name]: e.target.value })
+    }
+
+    onSubmit(e) {
+        e.preventDefault()
+
+        const user = {
+            email: this.state.email,
+            password: this.state.password
+        }
+
+        login(user).then(res => {
+            if (res) {
+                this.props.history.push('/World' + jwt.decode(localStorage.usertoken).id)
+            }
+        })
     }
 
     handleClose() {
@@ -28,7 +56,7 @@ class Login extends Component {
 
     render() {
         return (
-                <>
+            <>
                 <Button variant="secondary mrl-small textBlueColor buttons" onClick={this.handleShow}>
                     Login
                 </Button>
@@ -40,21 +68,33 @@ class Login extends Component {
                         <Form>
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Label>Email</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Control
+                                    name="email"
+                                    value={this.state.email}
+                                    onChange={this.onChange}
+                                    type="email"
+                                    placeholder="Enter email" />
                             </Form.Group>
                             <Form.Group controlId="formBasicPassword">
                                 <Form.Label>Senha</Form.Label>
-                                <Form.Control type="password" placeholder="Password" />
+                                <Form.Control name="password"
+                                    value={this.state.password}
+                                    onChange={this.onChange}
+                                    type="password" placeholder="Password" />
                             </Form.Group>
                             <Button variant="primary center blueBackgroundColor textGoldColor" type="submit">
-                                <Link to='/myWorld'> LOGIN </Link>
-                             </Button>
-                            </Form>
-                        </Modal.Body>
-                    </Modal>
-                </>
-                );
-            }
-        }
-        
-export default Login
+                                <Link to='/myWorld' onClick={this.onSubmit}> LOGIN </Link>
+                            </Button>
+                            <Button variant="primary center blueBackgroundColor textGoldColor" type="submit">
+                                <Link onClick={userStatus}> teste </Link>
+                            </Button>
+                            <Facebook />
+                        </Form>
+                    </Modal.Body>
+                </Modal>
+            </>
+        );
+    }
+}
+
+export default withRouter(Login)
